@@ -145,8 +145,7 @@ docker compose up -d
   - 需要登录,你可以看init.sql文件的user表和admin表的用户名和密码来进行登录,这里提供两个登录账号
   - 用户端 账号:user001  密码:123456
   - 管理端 账号:admin     密码:123456
-- **后端接口**：http://localhost:8080
-
+  - 
 ## 七、常用命令参考（建议新手直接看docker desktop即可）
 
 - 查看所有容器的运行状态：`docker compose ps`
