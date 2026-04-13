@@ -12,8 +12,8 @@
 
 <table>
   <tr>
-    <td >用户主界面<br><img src="./images/customer-home.png" width="500"></td>
-    <td >管理员主界面<br><img src="./images/admin-home.png" width="500"></td>
+    <td >用户端主界面<br><img src="./images/customer-home.png" width="500"></td>
+    <td >管理端主界面<br><img src="./images/admin-home.png" width="500"></td>
   </tr>
 </table>
 
@@ -21,33 +21,44 @@
 
 <table>
   <tr>
-    <td >用户端智能助手界面<br><img src="./images/customer-chat.png" width="500"></td>
-    <td >管理员主界面<br><img src="./images/admin-chat.png" width="500"></td>
+    <td >用户端智能助手界面(意图识别工具调用)<br><img src="./images/customer-aichat.png" width="500"></td>
+    <td >管理端智能助手界面(Mcp工具调用)<br><img src="./images/admin-chat.png" width="500"></td>
   </tr>
 </table>
 
-<img src="./images/login.png" width="600" alt="登录界面">
-**登录界面** 
 
-<img src="./images/login.png" width="600" alt="登录界面">
-**登录界面** 
+<table>
+  <tr>
+    <td >用户端游戏界面(提示词工程)<br><img src="./images/customer-game1.png" width="500"></td>
+    <td >管理端文档问答界面(Rag)<br><img src="./images/admin-rag.png" width="500"></td>
+  </tr>
+</table>
 
-<img src="./images/login.png" width="600" alt="登录界面">
-**登录界面** 
+<table>
+  <tr>
+    <td >用户端订单界面<br><img src="./images/customer-order.png" width="500"></td>
+    <td >管理端工单界面<br><img src="./images/admin-ticket.png" width="500"></td>
+  </tr>
+</table>
 
-<img src="./images/login.png" width="600" alt="登录界面">
-**登录界面** 
-
-<img src="./images/login.png" width="600" alt="登录界面">
+<table>
+  <tr>
+    <td >docker镜像界面<br><img src="./images/docker-images.png" width="500"></td>
+    <td >docker容器界面<br><img src="./images/docker-containers.png" width="500"></td>
+  </tr>
+</table>
 
 ## 二、功能特性
 
 - ✅ 前后端分离架构
-- ✅ AI对话功能集成  
+- ✅ AI对话功能集成
+- ✅ AI智能管理订单
+- ✅ AI向量检索生成
 - ✅ 用户权限管理（普通用户/管理员）
 - ✅ Docker一键部署
 - ✅ API文档自动生成
-- [更多功能特性占位符]
+
+
 
 ## 三、项目亮点
 
@@ -55,7 +66,9 @@
 - 使用Pgvector向量数据库支持AI应用
 - 多阶段Docker构建优化镜像大小
 - 前后端分离的现代化开发模式
-- [更多亮点占位符]
+- 用户对话记忆隔离
+- 完整rag流程
+- AI意图智能识别
 
 ## 四、技术栈
 
@@ -209,7 +222,7 @@ docker-compose up -d
      1. 先单独拉取失败的镜像,比如,nginx拉取失败,先单独执行`docker pull nginx`(默认latest),一般即可拉取成功
      2. 如果一步骤失败则,进入docker desktop里在左边栏会有docker hub,里面可以搜索你想要的镜像,在右边栏直接下载对应的镜像版本即可
      3. 或者你可以直接进入https://hub.docker.com网站,这里是镜像网站总部,找到你要的镜像在右边栏会有Run in docker desktop,点击即可
-   - 注意:二三步骤一般需要代理
+   - 注意:2,3步骤一般需要代理
 
 ## 十二、注意事项
 
@@ -219,11 +232,10 @@ docker-compose up -d
 
 ## 十三、开发周期
 
-- 项目时间：[开发时间占位符]
+- 项目时间：40天
+- 日均时常: 6到8小时
 - 个人完成度：100%
 
 ## 十四、联系方式与许可证
 
-本项目仅供学习交流使用，如有问题欢迎联系 1910287579@qq.com
-
-[致谢占位符]
+本项目或有不足之处，如有问题或对AI应用感兴趣的小伙伴欢迎联系 1910287579@qq.com,让我们一起使用AI,擅用AI,驾驭AI!
