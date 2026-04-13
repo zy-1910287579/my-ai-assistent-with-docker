@@ -125,9 +125,9 @@ cd AI-Assistant-Hub
 ### 3. 配置密钥（重要）
 在项目根目录下创建一个名为 `.env` 的文件，写入以下内容（请替换成你自己的真实密钥）：
 ```
-OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+DASHSCOPE_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
-你只需要替换一个apikey即可,其他环境已经在compose指定了
+你只需要替换一个DASHSCOPE_API_KEY即可,其他环境已经在compose指定了
 
 注意：`.env` 文件已被 Git 忽略，不会提交到仓库。
 
