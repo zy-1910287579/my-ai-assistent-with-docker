@@ -123,9 +123,9 @@ cd AI-Assistant-Hub
 ```
 
 ### 3. 配置密钥（重要）
-在项目根目录下创建一个名为 `.env` 的文件，写入以下内容（请替换成你自己的真实密钥）：
+在项目根目录下(你拉取的项目,和docker-compose同级)创建一个名为 `.env` 的文件，写入以下内容（请替换成你自己的真实密钥）：
 ```
-DASHSCOPE_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+DASHSCOPE_API_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 你只需要替换一个DASHSCOPE_API_KEY即可,其他环境已经在compose指定了
 
@@ -135,11 +135,10 @@ DASHSCOPE_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```bash
 docker compose up -d
 ```
-（docker compose 一个dockercompose命令整体,up:构建并启动,-d:后台运行）
 
 第一次启动会自动构建镜像，需要下载依赖，大概需要 3 到 10 分钟，请耐心等待。
 
-看到两个服务的 Status 都变成 Up 就说明启动成功了。此时你可以看你的docker desktop的containers栏会有运行的容器,在images栏会有你下载好的镜像,一般是主目录文件名+docker compose文件服务名的命名
+看到多个created就说明构建并启动成功了。此时你可以看你的docker desktop的containers栏会有运行的容器,在images栏会有你下载好的镜像,一般是主目录文件名+docker compose文件服务名的命名
 
 ### 5. 访问应用
 - **前端界面**：在浏览器打开 http://localhost
@@ -172,7 +171,7 @@ npm install
 npm run dev
 ```
 
-## 九、Docker 部署原理
+## 九、Docker 部署原理(个人总结)
 
 ### 构建和编排
 用 Docker 实现项目的"一次打包，到处运行"
