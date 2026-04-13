@@ -2,7 +2,7 @@
 
 ## 一、项目简介
 
-这是一个基于 Spring Boot 3 和 Vue 3 的 AI 智能助手应用，采用 Docker Compose 实现前后端一键部署。
+这是一个基于 Spring Boot 3 和 Vue 3 的 AI 智能助手应用，为大三实习求职项目，全流程独立开发，可直接 Docker Compose 一键启动体验完整功能。
 
 ### 📸 项目预览
 **登录界面** 
